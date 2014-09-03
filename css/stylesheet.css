@@ -1,0 +1,152 @@
+body {
+    height: 100%;
+    margin-top: 0;
+    width: 100%;
+}
+
+
+/*   Top-Bar Styling   */
+.top-bar .title-area { background: #fff; color: grey;}
+    .top-bar.expanded .title-area { background: #fff; color: grey;}
+
+.top-bar .name h1 a { color: grey;}
+.top-bar { border-bottom: 1px solid grey;}
+.top-bar .name h1 a { color: grey;}
+
+.top-bar .toggle-topbar.menu-icon a { color: grey;}
+
+
+.top-bar .nav-menu {
+    border-bottom: 1px solid grey;
+}
+
+.top-bar .nav-menu li a {
+    color: grey;
+}
+
+.top-bar .nav-menu .parent-link.js-generated {
+    color: grey;
+    font-size: 1em;
+}
+.top-bar-section ul li {
+    background: #fff;
+    border-bottom: 1px solid grey;
+}
+
+.top-bar-section ul li > a {
+    color: grey;
+}
+
+.wrapper {
+}
+
+.header {
+    margin-bottom: 10%;
+}
+
+.home-image {
+    box-shadow: 0px 0px 39px 1px grey;
+}
+
+.header h1 {
+    color: rgb(75, 75, 75);
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    padding: 10% 0;
+    text-align: center;
+    box-shadow: 0px 8px 6px -4px grey;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.header-intro {
+    box-shadow: 0px 6px 8px 0px grey;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding-bottom: 15%;
+}
+
+.header-intro p {
+    font-family:'Oswald-Light', Helvetica, Arial, sans-serif;
+    text-align: left;
+    color: rgb(127, 139, 136);
+    margin: 7.5% 10%;
+    line-height: 2em;
+}
+
+footer {
+    background: rgb(75, 75, 75);
+    padding: 10% 5%;
+}
+
+.footer-info p {
+    font-family: 'Oswald-Light', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 0.8em;
+    margin-bottom: 0%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.social-icons {
+    margin-bottom: 7.5%;
+    margin-top: 15%;
+}
+
+.social-icons a img  {
+    width: 100%;
+}
+
+
+
+/*   Fonts   */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v9/l1cOQ90roY9yC7voEhngDJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v9/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v9/Qw6_9HvXRQGg5mMbFR3PhuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v9/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v9/dI-qzxlKVQA6TUC5RKSb35Bw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v9/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
