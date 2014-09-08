@@ -1,3 +1,5 @@
+/*   General   */
+
 body {
     height: 100%;
     margin-top: 0;
@@ -16,37 +18,26 @@ body {
 .top-bar .toggle-topbar.menu-icon a { color: grey;}
 
 
-.top-bar .nav-menu {
-    border-bottom: 1px solid grey;
-}
+.top-bar .nav-menu { border-bottom: 1px solid grey;}
 
-.top-bar .nav-menu li a {
-    color: grey;
-}
+.top-bar .nav-menu li a { color: grey;}
 
 .top-bar .nav-menu .parent-link.js-generated {
     color: grey;
-    font-size: 1em;
-}
+    font-size: 1em;}
+
 .top-bar-section ul li {
     background: #fff;
-    border-bottom: 1px solid grey;
-}
+    border-bottom: 1px solid grey;}
 
-.top-bar-section ul li > a {
-    color: grey;
-}
+.top-bar-section ul li > a { color: grey;}
 
-.wrapper {
-}
 
-.header {
-    margin-bottom: 10%;
-}
+.wrapper {}
 
-.home-image {
-    box-shadow: 0px 0px 39px 1px grey;
-}
+.header { margin-bottom: 10%; z-index: 100; position: relative;}
+
+.home-image { box-shadow: 0px 0px 39px 1px grey;}
 
 .header h1 {
     color: rgb(75, 75, 75);
@@ -58,27 +49,31 @@ body {
     box-shadow: 0px 8px 6px -4px grey;
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
-}
+    background: rgb(250, 250, 250);}
 
 .header-intro {
     box-shadow: 0px 6px 8px 0px grey;
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
     padding-bottom: 15%;
-}
+    z-index: -10;
+    position: relative;
+    padding-top: 100px;
+    background: rgb(240, 240, 240);
+    margin-top: -150px;}
 
 .header-intro p {
     font-family:'Oswald-Light', Helvetica, Arial, sans-serif;
     text-align: left;
     color: rgb(127, 139, 136);
     margin: 7.5% 10%;
-    line-height: 2em;
-}
+    line-height: 2em;}
+
+.home-header-image img {box-shadow: 0px 12px 15px -10px rgb(75, 75, 75);}
 
 footer {
     background: rgb(75, 75, 75);
-    padding: 10% 5%;
-}
+    padding: 10% 5%;}
 
 .footer-info p {
     font-family: 'Oswald-Light', Helvetica, Arial, sans-serif;
@@ -86,17 +81,14 @@ footer {
     font-size: 0.8em;
     margin-bottom: 0%;
     text-align: center;
-    font-weight: 500;
-}
+    font-weight: 500;}
 
 .social-icons {
     margin-bottom: 7.5%;
-    margin-top: 15%;
-}
+    margin-top: 15%;}
 
 .social-icons a img  {
-    width: 100%;
-}
+    width: 100%;}
 
 
 
